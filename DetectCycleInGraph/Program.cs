@@ -46,10 +46,7 @@ namespace DetectCycleInGraph
 
             var cycle = new List<DebtInfo>();
 
-            while (true)
-            {
-
-            }
+            
 
             Console.WriteLine($"Is Cyclic = {checkResult.Item1}, vertex={checkResult.Item2}");
         }
